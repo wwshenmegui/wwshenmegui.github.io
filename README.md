@@ -33,7 +33,7 @@ The template is designed to be easily customizable through the `src/config.ts` f
 - **Accent Color**: Primary color theme (changing this will change the accent color site wide)
 - **Social Links**: Email, LinkedIn, Twitter, GitHub (all optional)
 - **About Section**: Personal bio/description
-- **Skills**: List of technical skills
+- **Skills**: List of technical skills, displayed in a dedicated section between About and Projects
 - **Projects**: Project showcase with descriptions and links
 - **Experience**: Work history with bullet points
 - **Education**: Educational background and achievements
@@ -140,7 +140,8 @@ devportfolio/
 │   │   ├── Footer.astro     # Site footer
 │   │   ├── Header.astro     # Navigation header
 │   │   ├── Hero.astro       # Hero/intro section
-│   │   └── Projects.astro   # Projects showcase
+│   │   ├── Projects.astro   # Projects showcase
+│   │   └── Skills.astro     # Technical skills
 │   ├── pages/
 │   │   └── index.astro      # Main page layout
 │   ├── styles/
