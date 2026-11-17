@@ -164,6 +164,19 @@ npm run dev
 
 ## Deployment
 
+### This portfolio on GitHub Pages
+
+This repository publishes to https://wwshenmegui.github.io using
+`.github/workflows/deploy.yml`. Pushes to `master` automatically build the Astro
+site and deploy it to GitHub Pages. You can also run the workflow manually from
+the repository's Actions tab.
+
+In repository **Settings > Pages**, set the source to **GitHub Actions**.
+`astro.config.mjs` sets `site` to `https://wwshenmegui.github.io`; no `base` path
+is needed because the repository is named `wwshenmegui.github.io`.
+
+### Other hosting providers
+
 The template can be deployed to any static hosting service easily (and in most cases, completely free). Here are some options:
 
 - To deploy with Netlify, [click here](https://docs.astro.build/en/guides/deploy/netlify/).
