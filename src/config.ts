@@ -10,8 +10,13 @@ export const siteConfig = {
     twitter: "",
     github: "https://github.com/wwshenmegui",
   },
-  aboutMe:
-    "I'm a backend software engineer with 4+ years of experience building scalable distributed systems, backend services, and workflow automation across cloud infrastructure and consumer-facing products. I've worked at Microsoft, PayPal, and Amazon, designing reliable APIs and services, improving system performance, and delivering end-to-end features with cloud technologies and AI-powered tools. I'm based in the Boston metropolitan area and open to relocation to New York or Philadelphia.",
+  aboutMe: `A Software Engineer with nearly 5 years of experience in building and improving services that automates complex workflows and improves developer productivity.
+
+Have hands-on experience in Python, C#, Typescript, React.js, Azure, AWS.
+
+Adept at using AI tools in daily development, brainstorming ideas, design drafting, writing code and testing, reviewing code.
+
+Passionate about working on projects with great impact and something cool`,
   skills: [
     "TypeScript",
     "JavaScript",
