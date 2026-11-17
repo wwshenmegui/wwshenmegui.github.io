@@ -80,6 +80,12 @@ projects: [
     description: "Brief description of what the project does and its impact",
     link: "https://github.com/yourusername/project",
     skills: ["React", "Node.js", "AWS"], // Technologies used
+    image: { // Optional screenshot; store the file in public/projects/
+      src: "/projects/your-project.png",
+      alt: "Description of your project's interface",
+      width: 1600,
+      height: 900,
+    },
   }
 ]
 ```

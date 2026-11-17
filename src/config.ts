@@ -43,7 +43,21 @@ export const siteConfig = {
     "Large Language Models (LLMs)",
     "Prompt Engineering",
   ],
-  projects: [],
+  projects: [
+    {
+      name: "Asobo",
+      description:
+        "An LLM-powered game recommender that turns a description of your ideal game into five personalized recommendations. Describe the gameplay, mood, or games you enjoy, and discover real games with explanations of why each one fits.",
+      link: "https://asobo-web.prouddesert-c93a35d5.centralus.azurecontainerapps.io/",
+      skills: ["Large Language Models (LLMs)", "Azure Container Apps"],
+      image: {
+        src: "/projects/asobo.png",
+        alt: "Asobo recommending Elden Ring and Nioh for a search for games like Sekiro, with genre tags and explanations for each recommendation.",
+        width: 1640,
+        height: 1604,
+      },
+    },
+  ],
   experience: [
     {
       company: "Microsoft",
