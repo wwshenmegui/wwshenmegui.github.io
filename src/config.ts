@@ -53,7 +53,7 @@ Passionate about working on projects with great impact and something cool`,
       name: "Asobo",
       description:
         "An LLM-powered game recommender that turns a description of your ideal game into five personalized recommendations. Describe the gameplay, mood, or games you enjoy, and discover real games with explanations of why each one fits.",
-      link: "https://asobo-web.prouddesert-c93a35d5.centralus.azurecontainerapps.io/",
+      link: "",
       skills: [
         "Next.js 16",
         "React 19",
